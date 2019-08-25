@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lobster+Two|Luckiest+Guy|Neuton:400i&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <body class ="SurveyPage">
@@ -151,7 +151,7 @@
                     </div>
                     <div class="modal-body">
                         <h2 id="match-name"></h2>
-                        <img id="match-img" src="#" alt="Image">
+                        <img id="match-img" alt="Image">
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -202,10 +202,8 @@
                     ]
                   };
                   //to clear the form after submitting
-                  location.reload(true);
-                  // let currentURL = window.location.origin;
-                  // AJAX post the data to the friends API.
                   $.post("/api/friends", userData, function(data) {
+                    console.log("In surevy page " + data);
                     // Grab the result from the AJAX post so that the best match's name and photo are displayed.
                     $("#match-name").text(data.name);
                     $("#match-img").attr("src", data.photo);
