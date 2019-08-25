@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lobster+Two|Luckiest+Guy|Neuton:400i&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <body class ="SurveyPage">
         <div class="container">
             <h2>Friend Finder Survey Questions</h2>
@@ -128,7 +131,7 @@
             </select>          
             <br>
             <hr>
-            <button type="submit" class="btn btn-info btn-block" id="submit">Submit</button>
+            <button type="submit" class="btn btn-info btn-block" id="addUser">Submit</button>
             <br>
             <hr>
 
@@ -145,15 +148,14 @@
                 <div class="modal-dialog">
                 <!-- Modal content-->
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">×</button>
-                        <h2 class="modal-title">&hearts; &hearts; &hearts;Your Best Match &hearts; &hearts; &hearts;</h2>
+                    <div class="modal-header ">
+                        <h2 class="modal-title text-center"> &hearts;Your Best Match &hearts;</h2>
                     </div>
                     <div class="modal-body">
                         <h2 id="match-name"></h2>
-                        <img id="match-img" alt="Image">
+                        <img id="match-img" class = "img-responsive" alt="Image">
                     </div>
-                    <div class="modal-footer">
+                    <div class="modal-footer text-center">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
@@ -162,7 +164,7 @@
           
             <script type="text/javascript">
                 // Capture the form inputs
-                $("#submit").on("click", function(event) {
+                $("#addUser").on("click", function(event) {
                     event.preventDefault();
                 // Form validation
                 function validateForm() {
@@ -201,14 +203,13 @@
                       $("#q10").nval()
                     ]
                   };
-                  //to clear the form after submitting
                   $.post("/api/friends", userData, function(data) {
                     console.log("In surevy page " + data);
                     // Grab the result from the AJAX post so that the best match's name and photo are displayed.
                     $("#match-name").text(data.name);
                     $("#match-img").attr("src", data.photo);
                     // Show the modal with the best match
-                    $("#results-modal").modal("toggle");
+                    $("#results-modal").modal("show");
                   });
                 } else {
                   alert("Please complete the form by filling out all fields before submitting! Thanks");
