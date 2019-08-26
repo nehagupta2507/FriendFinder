@@ -1,4 +1,3 @@
-let path = require('path')
 let friendsArray = require("../data/friend.js");
 
 //API GET request
