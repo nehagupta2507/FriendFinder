@@ -1,47 +1,47 @@
-body{
-    background-image: url(../images/friends.jpg);
-    background-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+	background-image: url(../images/friends.jpg);
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-.jumbotron{
-    background: none;
-    margin-top: 150px;
+.jumbotron {
+	background: none;
+	margin-top: 150px;
 }
 h1 {
-    color: cyan;
-    font-family: 'Great Vibes', cursive;
-    font-size: 100px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 white;
-
+	color: cyan;
+	font-family: 'Great Vibes', cursive;
+	font-size: 100px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 white;
 }
 
-h5{
-    color: cyan;
-    font-family: 'Great Vibes', cursive;
-    font-size: 30px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 white;
-
+h5 {
+	color: cyan;
+	font-family: 'Great Vibes', cursive;
+	font-size: 30px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 white;
 }
-.btn{
-    font-family: 'Neuton', serif;  
-    font-size: 20px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 white;
-
+.btn {
+	font-family: 'Neuton', serif;
+	font-size: 20px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 white;
+}
+.selectedOption{
+    border-color: black;
 }
 .page-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    color: antiquewhite;
-  }
-.SurveyPage{
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,0.1741071428571429) 100%);
-    font-family: 'Neuton', serif;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: antiquewhite;
 }
-h3{
-    font-weight: bold;
+.SurveyPage {
+	background: rgb(34, 193, 195);
+	background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 0.1741071428571429) 100%);
+	font-family: 'Neuton', serif;
+}
+h3 {
+	font-weight: bold;
 }

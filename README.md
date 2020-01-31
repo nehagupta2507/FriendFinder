@@ -13,6 +13,7 @@ To install the application follow the instructions below:
 - npm install
   
 ## Running Locally
+- npm start
 To run the application locally and access it in your browser, first set the PORT environment variable to the value of your choice. An example is shown below.
 - export PORT=3030
 After the PORT environment variable has been set, run the Node.js application with the command below.
