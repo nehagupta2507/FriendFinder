@@ -48,4 +48,12 @@ The application will now be running locally on PORT, in this case that is port 3
     * Once the closest match has been determined, it will display the result back to the user. 
     * The result will display both the name and picture of the closest match. 
 
+# Screenshots
+
+
+# License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+# Show your support
+Give a ⭐️ if this project helped you!
 
