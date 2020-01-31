@@ -20,7 +20,7 @@ After the PORT environment variable has been set, run the Node.js application wi
 - node server.js
 The application will now be running locally on PORT, in this case that is port 3030. You can then access it locally from your browser at the URL localhost:PORT, in this case localhost:3030.
 
-## Technologies Used
+## Buit With
 - Node.js
 - body-parager NPM Package - https://www.npmjs.com/package/inquirer
 - express NPM Package - https://www.npmjs.com/package/express
@@ -56,7 +56,7 @@ The application will now be running locally on PORT, in this case that is port 3
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 # Acknowledgments
-- Many thanks to (randomuser)[https://randomuser.me/photos] for the photos.
+- Many thanks to [randomuser](https://randomuser.me/photos) for the photos.
 
 
 # Show your support

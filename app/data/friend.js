@@ -1,7 +1,7 @@
 let friendsArray =[
     {
     "name": "Samantha Long",
-    "photo": "https://www.designskilz.com/random-users/images/imageF40.jpg",
+    "photo": "https://randomuser.me/api/portraits/women/26.jpg",
     "scores": [
         "5",
         "5",
@@ -17,7 +17,7 @@ let friendsArray =[
     },
     {
     "name": "Thomas Fowler",
-    "photo": "https://www.designskilz.com/random-users/images/imageM3.jpg",
+    "photo": "https://randomuser.me/api/portraits/men/6.jpg",
     "scores": [
         "5",
         "5",
@@ -33,7 +33,7 @@ let friendsArray =[
     },
     {
     "name": "Ashley Watkins",
-    "photo": "https://www.designskilz.com/random-users/images/imageF37.jpg",
+    "photo": "https://randomuser.me/api/portraits/women/57.jpg",
     "scores": [
         "5",
         "5",
@@ -49,7 +49,7 @@ let friendsArray =[
     },
     {
     "name": "Robert Thompson",
-    "photo": "https://www.designskilz.com/random-users/images/imageM16.jpg",
+    "photo": "https://randomuser.me/api/portraits/men/0.jpg",
     "scores": [
         "5",
         "3",
@@ -65,7 +65,7 @@ let friendsArray =[
     },
     {
     "name": "Anna Weber",
-    "photo": "https://www.designskilz.com/random-users/images/imageF10.jpg",
+    "photo": "https://randomuser.me/api/portraits/women/58.jpg",
     "scores": [
         "1",
         "2",
@@ -81,7 +81,7 @@ let friendsArray =[
     },
     {
     "name": "Brian Boyd",
-    "photo": "https://www.designskilz.com/random-users/images/imageM47.jpg",
+    "photo": "https://randomuser.me/api/portraits/men/27.jpg",
     "scores": [
     "3",
     "2",
@@ -97,7 +97,7 @@ let friendsArray =[
     },
     {
     "name": "Heather Henry",
-    "photo": "https://www.designskilz.com/random-users/images/imageF34.jpg",
+    "photo": "https://randomuser.me/api/portraits/men/68.jpg",
     "scores": [
     "4",
     "4",
@@ -113,7 +113,7 @@ let friendsArray =[
     },
     {
     "name": "Christopher Wilson",
-    "photo": "https://www.designskilz.com/random-users/images/imageM39.jpg",
+    "photo": "https://randomuser.me/api/portraits/men/10.jpg",
     "scores": [
     "2",
     "3",
@@ -129,7 +129,7 @@ let friendsArray =[
     },
     {
     "name": "Rebecca Dixon",
-    "photo": "https://www.designskilz.com/random-users/images/imageF43.jpg",
+    "photo": "https://randomuser.me/api/portraits/women/34.jpg",
     "scores": [
     "3",
     "3",
@@ -145,7 +145,7 @@ let friendsArray =[
     },
     {
     "name": "Edward Hunt",
-    "photo": "https://www.designskilz.com/random-users/images/imageM16.jpg",
+    "photo": "https://randomuser.me/api/portraits/men/37.jpg",
     "scores": [
     "2",
     "3",
