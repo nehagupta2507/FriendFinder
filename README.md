@@ -55,6 +55,10 @@ The application will now be running locally on PORT, in this case that is port 3
 # License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
+# Acknowledgments
+- Many thanks to (randomuser)[https://randomuser.me/photos] for the photos.
+
+
 # Show your support
 Give a ⭐️ if this project helped you!
 
