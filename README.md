@@ -1,11 +1,15 @@
-# Demo
-Checkout the app here. [Live](https://protected-waters-26613.herokuapp.com/)
-
-# Friend Finder 
+<h1 align="center">FriendFinder</h1>
+<h3 align="center">🌀By NehaGupta</h3>
 - Friend Finder implements friend matching based on the user's responses to a ten-question survey. The user responds to questions with values from 1 (Strongly Disagree) to 5 (Strongly Agree). 
 - When the survey is submitted, the existing user record closest to the current user's responses is found and returned. The closest set of user responses is defined as the set with the lowest absolute difference for all ten questions combined.
 - The application is implemented using a Node.js and Express server on the back end and Bootstrap/CSS framework on the front end.
 
+## [Deployed Heroku Link](https://protected-waters-26613.herokuapp.com/)
+
+## App
+<p align="center">
+    <img src="/app/public/images/ff.gif" alt="Mobile Version" width="350px">
+</p>
 ## Installation
 To install the application follow the instructions below:
 - git clone https://github.com/nehagupta2507/FriendFinder.git
@@ -48,9 +52,6 @@ The application will now be running locally on PORT, in this case that is port 3
     * The person with the closest match will be the one with the "least" amount of difference.
     * Once the closest match has been determined, it will display the result back to the user. 
     * The result will display both the name and picture of the closest match. 
-
-# Screenshots
-
 
 # License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
