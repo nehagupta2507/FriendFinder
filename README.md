@@ -10,6 +10,7 @@
 <p align="center">
     <img src="/app/public/images/ff.gif" alt="Mobile Version" width="350px">
 </p>
+
 ## Installation
 To install the application follow the instructions below:
 - git clone https://github.com/nehagupta2507/FriendFinder.git
